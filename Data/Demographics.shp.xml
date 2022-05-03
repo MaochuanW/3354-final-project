@@ -1,0 +1,225 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Products and Services Branch</origin>
+				<pubdate>201803</pubdate>
+				<title>2017 Cartographic Boundary File, Current Block Group for Hawaii, 1:500,000</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>Cartographic Boundary Files</sername>
+					<issue>2017</issue>
+				</serinfo>
+				<onlink>https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_15_bg_500k.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The 2017 cartographic boundary shapefiles are simplified representations of selected geographic areas from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping. When possible, generalization is performed with the intent to maintain the hierarchical relationships among geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas may not align with the same areas from another year. Some geographies are available as nation-based files while others are available only as state-based files.
+
+Block Groups (BGs) are clusters of blocks within the same census tract. Each census tract contains at least one BG, and BGs are uniquely numbered within census tracts. BGs have a valid code range of 0 through 9. BGs have the same first digit of their 4-digit census block number from the same decennial census. For example, tabulation blocks numbered 3001, 3002, 3003,.., 3999 within census tract 1210.02 are also within BG 3 within that census tract. BGs coded 0 are intended to only include water area, no land area, and they are generally in territorial seas, coastal water, and Great Lakes water areas. Block groups generally contain between 600 and 3,000 people. A BG usually covers a contiguous area but never crosses county or census tract boundaries. They may, however, cross the boundaries of other geographic entities like county subdivisions, places, urban areas, voting districts, congressional districts, and American Indian / Alaska Native / Native Hawaiian areas.
+
+The generalized BG boundaries in this release are based on those that were delineated as part of the Census Bureau's Participant Statistical Areas Program (PSAP) for the 2010 Census.</abstract>
+			<purpose>These files were specifically created to support small-scale thematic mapping. To improve the appearance of shapes at small scales, areas are represented with fewer vertices than detailed TIGER/Line Shapefiles. Cartographic boundary files take up less disk space than their ungeneralized counterparts. Cartographic boundary files take less time to render on screen than TIGER/Line Shapefiles. You can join this file with table data downloaded from American FactFinder by using the AFFGEOID field in the cartographic boundary file. If detailed boundaries are required, please use the TIGER/Line Shapefiles instead of the generalized cartographic boundary files.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>201803</begdate>
+					<enddate>201803</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned. No changes or updates will be made to this version of the cartographic boundary files. New versions of the cartographic boundary files will be produced on an annual release schedule. Types of geography released may vary from year to year.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-178.334698</westbc>
+				<eastbc>-154.806773</eastbc>
+				<northbc>28.402123</northbc>
+				<southbc>18.910361</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>2017</themekey>
+				<themekey>SHP</themekey>
+				<themekey>Block Group</themekey>
+				<themekey>Cartographic Boundary</themekey>
+				<themekey>Census Tract</themekey>
+				<themekey>County</themekey>
+				<themekey>Generalized</themekey>
+				<themekey>State</themekey>
+			</theme>
+			<place>
+				<placekt>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</placekt>
+				<placekey>Hawaii</placekey>
+				<placekey>HI</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The intended display scale for this file is 1:500,000. This file should not be displayed at scales larger than 1:500,000.
+
+These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information is for visual display at appropriate small scales only. Cartographic boundary files should not be used for geographic analysis including area or perimeter calculation. Files should not be used for geocoding addresses. Files should not be used for determining precise geographic area relationships.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against American National Standards Institute (ANSI) Publication INCITS 446-2008 (Geographic Names Information System (GNIS)) at the 100% level for the codes and base names present in the file. The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency of the source database. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. All polygons were tested for closure. The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database. Standard geographic codes, such as INCITS (formerly FIPS) codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files. Feature attribute information has been examined but has not been fully tested for consistency.
+
+For the cartographic boundary files, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the file's data table. For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature. Cartographic Boundary File multi-polygons are an exception to the G-polygon object type classification. Therefore, when multi-polygons exist in a file, the object count will be less than the actual number of G-polygons.</logic>
+		<complete>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER Database. Generalized boundary files are clipped to a simplified version of the U.S. outline. As a result, some off-shore areas may be excluded from the generalized files. Some small geographic areas, holes, or discontiguous parts of areas may not be included in generalized files if they are not visible at the target scale.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data are not accurate. Data are generalized representations of geographic boundaries at 1:500,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Geo-spatial Relational Database</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>201706</begdate>
+							<enddate>201705</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>The dates describe the effective date of 2017 cartographic boundaries.</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>All spatial and feature data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Spatial data were extracted from the MAF/TIGER database and processed through a U.S. Census Bureau batch generalization system.</procdesc>
+				<srcused>MAF/TIGER</srcused>
+				<procdate>201803</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>INCITS (formerly FIPS) codes</indspref>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="Demographics"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000458</latres>
+				<longres>0.000458</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Demographics">
+			<enttyp>
+				<enttypl>cb_2017_15_bg_500k.shp</enttypl>
+				<enttypd>Current Block Group (state-based)</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">H7X001</attrlabl><attalias Sync="TRUE">H7X001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">White</attrlabl><attalias Sync="TRUE">White</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Black</attrlabl><attalias Sync="TRUE">Black</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">American_I</attrlabl><attalias Sync="TRUE">American_I</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Asian</attrlabl><attalias Sync="TRUE">Asian</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Native_Haw</attrlabl><attalias Sync="TRUE">Native_Haw</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Other_Race</attrlabl><attalias Sync="TRUE">Other_Race</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Two_or_Mor</attrlabl><attalias Sync="TRUE">Two_or_Mor</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data. The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files. The boundary information is for small-scale mapping purposes only; boundary depiction and designation for small-scale mapping purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<filedec>PK-ZIP, version 1.93A or higher</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_15_bg_500k.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>The online cartographic boundary files may be downloaded without charge.</fees>
+			<ordering>To obtain more information about ordering Cartographic Boundary Files visit https://www.census.gov/geo/www/tiger.</ordering>
+		</stdorder>
+		<techpreq>The cartographic boundary files contain geographic data only and do not include display mapping software or statistical data. For information on how to use cartographic boundary file data with specific software package users shall contact the company that produced the software.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>201803</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 19042) ; Esri ArcGIS 12.9.0.32739</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Demographics</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><Esri><DataProperties><itemProps><itemName Sync="TRUE">Demographics</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\PGC-STILBITE\C$\Users\wang8837\Desktop\geocomputing project\Demographics.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Geographic</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits><peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.238&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-09&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;LatestWKID&gt;4269&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220330" Time="151509">FeatureClassToFeatureClass cb_2017_15_bg_500k C:\Users\wang8837\Documents\ArcGIS\Projects\geocomputing\geocomputing.gdb bk_grp # "STATEFP "STATEFP" true true false 2 Text 0 0,First,#,cb_2017_15_bg_500k,STATEFP,0,2;COUNTYFP "COUNTYFP" true true false 3 Text 0 0,First,#,cb_2017_15_bg_500k,COUNTYFP,0,3;TRACTCE "TRACTCE" true true false 6 Text 0 0,First,#,cb_2017_15_bg_500k,TRACTCE,0,6;BLKGRPCE "BLKGRPCE" true true false 1 Text 0 0,First,#,cb_2017_15_bg_500k,BLKGRPCE,0,1;AFFGEOID "AFFGEOID" true true false 21 Text 0 0,First,#,cb_2017_15_bg_500k,AFFGEOID,0,21;GEOID "GEOID" true true false 12 Text 0 0,First,#,cb_2017_15_bg_500k,GEOID,0,12;NAME "NAME" true true false 100 Text 0 0,First,#,cb_2017_15_bg_500k,NAME,0,100;LSAD "LSAD" true true false 2 Text 0 0,First,#,cb_2017_15_bg_500k,LSAD,0,2;ALAND "ALAND" true true false 14 Double 0 14,First,#,cb_2017_15_bg_500k,ALAND,-1,-1;AWATER "AWATER" true true false 14 Double 0 14,First,#,cb_2017_15_bg_500k,AWATER,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20220330" Time="151526">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=C:\Users\wang8837\Documents\ArcGIS\Projects\geocomputing\geocomputing.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;bk_grp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;geoid_dbl&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;geoid_dbl&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20220330" Time="151543">CalculateField bk_grp geoid_dbl !GEOID! "Python 3" # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220330" Time="151633">FeatureClassToFeatureClass bk_grp "C:\Users\wang8837\Desktop\geocomputing project" Race.shp # "STATEFP "STATEFP" true true false 2 Text 0 0,First,#,bk_grp,bk_grp.STATEFP,0,2;COUNTYFP "COUNTYFP" true true false 3 Text 0 0,First,#,bk_grp,bk_grp.COUNTYFP,0,3;TRACTCE "TRACTCE" true true false 6 Text 0 0,First,#,bk_grp,bk_grp.TRACTCE,0,6;BLKGRPCE "BLKGRPCE" true true false 1 Text 0 0,First,#,bk_grp,bk_grp.BLKGRPCE,0,1;AFFGEOID "AFFGEOID" true true false 21 Text 0 0,First,#,bk_grp,bk_grp.AFFGEOID,0,21;GEOID "GEOID" true true false 12 Text 0 0,First,#,bk_grp,bk_grp.GEOID,0,12;NAME "NAME" true true false 100 Text 0 0,First,#,bk_grp,bk_grp.NAME,0,100;LSAD "LSAD" true true false 2 Text 0 0,First,#,bk_grp,bk_grp.LSAD,0,2;ALAND "ALAND" true true false 8 Double 0 0,First,#,bk_grp,bk_grp.ALAND,-1,-1;AWATER "AWATER" true true false 8 Double 0 0,First,#,bk_grp,bk_grp.AWATER,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,bk_grp,bk_grp.Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0,First,#,bk_grp,bk_grp.Shape_Area,-1,-1;geoid_dbl "geoid_dbl" true true false 8 Double 0 0,First,#,bk_grp,bk_grp.geoid_dbl,-1,-1;GISJOIN "GISJOIN" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.GISJOIN,0,8000;YEAR "YEAR" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.YEAR,-1,-1;REGIONA "REGIONA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.REGIONA,-1,-1;DIVISIONA "DIVISIONA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.DIVISIONA,-1,-1;STATE "STATE" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.STATE,0,8000;STATEA "STATEA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.STATEA,-1,-1;COUNTY "COUNTY" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.COUNTY,0,8000;COUNTYA "COUNTYA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.COUNTYA,-1,-1;Field9 "Field9" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.Field9,0,8000;TRACTA "TRACTA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.TRACTA,-1,-1;BLKGRPA "BLKGRPA" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.BLKGRPA,-1,-1;NAME "NAME" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.NAME,0,8000;SABINSA "SABINSA" true true false 8000 Text 0 0,First,#,bk_grp,block_gp.csv.SABINSA,0,8000;H7X001 "H7X001" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.H7X001,-1,-1;White "White" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.White,-1,-1;Black "Black" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.Black,-1,-1;American Indian "American Indian" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.American Indian,-1,-1;Asian "Asian" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.Asian,-1,-1;Native Hawaiian "Native Hawaiian" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.Native Hawaiian,-1,-1;Other Race "Other Race" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.Other Race,-1,-1;Two or More Races "Two or More Races" true true false 4 Long 0 0,First,#,bk_grp,block_gp.csv.Two or More Races,-1,-1;Geoid "Geoid" true true false 8 Double 0 0,First,#,bk_grp,block_gp.csv.Geoid,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20220330" Time="232530">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=C:\Users\wang8837\Desktop\geocomputing project&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;Race&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;DeleteField&gt;&lt;field_name&gt;Geoid_1&lt;/field_name&gt;&lt;/DeleteField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20220330" Time="233843">DeleteField Race STATEFP;COUNTYFP;TRACTCE;BLKGRPCE;AFFGEOID;GEOID;NAME;LSAD;ALAND;AWATER;Shape_Leng;Shape_Area;geoid_dbl;GISJOIN;YEAR;REGIONA;DIVISIONA;STATE;STATEA;COUNTY;COUNTYA;Field9;TRACTA;BLKGRPA;NAME_1;SABINSA "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20220330" Time="233930">FeatureClassToFeatureClass Race "C:\Users\wang8837\Desktop\geocomputing project" Demographics.shp # "H7X001 "H7X001" true true false 10 Long 0 10,First,#,Race,H7X001,-1,-1;White "White" true true false 10 Long 0 10,First,#,Race,White,-1,-1;Black "Black" true true false 10 Long 0 10,First,#,Race,Black,-1,-1;American_I "American_I" true true false 10 Long 0 10,First,#,Race,American_I,-1,-1;Asian "Asian" true true false 10 Long 0 10,First,#,Race,Asian,-1,-1;Native_Haw "Native_Haw" true true false 10 Long 0 10,First,#,Race,Native_Haw,-1,-1;Other_Race "Other_Race" true true false 10 Long 0 10,First,#,Race,Other_Race,-1,-1;Two_or_Mor "Two_or_Mor" true true false 10 Long 0 10,First,#,Race,Two_or_Mor,-1,-1" #</Process></lineage></DataProperties><SyncDate>20220330</SyncDate><SyncTime>23393000</SyncTime><ModDate>20220330</ModDate><ModTime>23393000</ModTime></Esri><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="4269" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">6.5(3.0.1)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Demographics"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20220330</mdDateSt></metadata>
